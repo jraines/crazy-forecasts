@@ -1,36 +1,17 @@
-# weatherfu
+# A weather puzzle
 
-FIXME: description
+Zach Lowe [asks](https://twitter.com/ZachLowe_NBA/status/809482337545232384): Current 5-day forecast for NYC features high temps starting with four different #s. Can someone at @FiveThirtyEight tell me odds of that?
 
-## Installation
+Rather than using historical forecasts, I used actual recorded temps because
+they were easily available from [the National Centers for Environmental
+Information](https://www.ncdc.noaa.gov/).
 
-Download from http://example.com/FIXME.
+The data (in this repo under `resources/daily-temps1.csv`) is from the beginning
+of 2012 and gives the highest and lowest temp per day recorded in Central Park.
 
-## Usage
+If you're into code, check out how easy Clojure makes this (see `src/weatherfu/core.clj`).
 
-FIXME: explanation
+The answer to the question is _4.8%_, which is higher than I would've guessed!
+Heck, maybe it's wrong -- if you spot an error let me know @jraines
 
-    $ java -jar weatherfu-0.1.0-standalone.jar [args]
-
-## Options
-
-FIXME: listing of options this app accepts.
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
-
-## License
-
-Copyright © 2016 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
