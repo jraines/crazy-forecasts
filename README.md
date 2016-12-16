@@ -11,6 +11,9 @@ of 2012 and gives the highest and lowest temp per day recorded in Central Park.
 
 If you're into code, check out how easy Clojure makes this (see `src/weatherfu/core.clj`).
 
+For each day, I look at a window of 5 days including that one, and see if the
+first number of the high temp is different for at least 4.
+
 The answer to the question is _4.8%_, which is higher than I would've guessed!
 Heck, maybe it's wrong -- if you spot an error let me know @jraines
 
